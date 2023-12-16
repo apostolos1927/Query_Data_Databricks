@@ -45,7 +45,7 @@
 -- COMMAND ----------
 
 -- MAGIC %python
--- MAGIC df = spark.read.format('csv').option("header", "true").load("abfss://input@apostorageaccount.dfs.core.windows.net/testdata.csv")
+-- MAGIC df = spark.read.format('csv').option("header", "true").load("abfss://container@storageaccount.dfs.core.windows.net/testdata.csv")
 -- MAGIC df.display()
 
 -- COMMAND ----------

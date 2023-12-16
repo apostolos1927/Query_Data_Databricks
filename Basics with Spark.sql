@@ -40,7 +40,7 @@
 -- MAGIC %python
 -- MAGIC spark.conf.set(
 -- MAGIC     "fs.azure.account.key.apostorageaccount.dfs.core.windows.net",
--- MAGIC     "QPfuDpirnesR0tC9MHNC3fLhYlt27xCxQRt4RR4G9b1sHHFzlkI321tpGDX5CzpnCuli0DhQCoKG+AStnr5sGA==")
+-- MAGIC     "")
 
 -- COMMAND ----------
 
